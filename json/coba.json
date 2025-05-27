@@ -1,0 +1,35 @@
+[
+{
+    "nama": "Zahwa Aulia",
+    "umur": 20,
+    "nim": "2217020144",
+    "lulus": true,
+    "hobby": [
+        "menonton",
+        "traveling"
+
+    ],
+    "pembimbing" : {
+        "pembimbing1": "doddy ferdiansyah",
+        "pembimbing2": "erik doank"
+    }
+
+},
+{
+
+    "nama": "Zahwa Aulia",
+    "umur": 20,
+    "nim": "2217020144",
+    "lulus": true,
+    "hobby": [
+        "menonton",
+        "traveling"
+
+    ],
+    "pembimbing" : {
+        "pembimbing1": "doddy ferdiansyah",
+        "pembimbing2": "erik doank"
+    }
+
+}
+]
