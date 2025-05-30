@@ -16,9 +16,9 @@ class Mahasiswa_model extends CI_model
 
     public function getAllMahasiswa()
     {
-       $response = $this->_client->request('GET', 'mahasiswa', [
+       $response = $this->_client->request('GET', 'api/mahasiswa', [
         'query' => [
-            'wpu-key' => 'rahasia'
+            'wpu-key' => 'wpu123'
         ]
        ]);
 
@@ -29,9 +29,9 @@ class Mahasiswa_model extends CI_model
 
     public function getMahasiswaById($id)
     {
-       $response = $this->_client->request('GET', 'mahasiswa', [
+       $response = $this->_client->request('GET', 'api/mahasiswa', [
         'query' => [
-          'wpu-key' => 'rahasia',
+          'wpu-key' => 'wpu123',
             'id' => $id
         ]
        ]);
@@ -48,10 +48,10 @@ class Mahasiswa_model extends CI_model
             "nrp" => $this->input->post('nrp', true),
             "email" => $this->input->post('email', true),
             "jurusan" => $this->input->post('jurusan', true),
-            'wpu-key' => 'rahasia'
+            'wpu-key' => 'wpu123'
         ];
 
-        $response = $this->_client->request('POST', 'mahasiswa', [
+        $response = $this->_client->request('POST', 'api/mahasiswa', [
             'form_params' => $data
         ]);
 
@@ -61,10 +61,10 @@ class Mahasiswa_model extends CI_model
 
     public function hapusDataMahasiswa($id)
     {
-        $response = $this->_client->request('DELETE', 'mahasiswa', [
+        $response = $this->_client->request('DELETE', 'api/mahasiswa', [
             'form_params' => [
                 'id' => $id,
-                'wpu-key' => 'rahasia'
+                'wpu-key' => 'wpu123'
             ]
         ]);
 
@@ -80,10 +80,10 @@ class Mahasiswa_model extends CI_model
             "email" => $this->input->post('email', true),
             "jurusan" => $this->input->post('jurusan', true),
             "id" => $this->input->post('id', true),
-            'wpu-key' => 'rahasia'
+            'wpu-key' => 'wpu123'
         ];
 
-        $response = $this->_client->request('PUT', 'mahasiswa', [
+        $response = $this->_client->request('PUT', 'api/mahasiswa', [
             'form_params' => $data
         ]);
 
