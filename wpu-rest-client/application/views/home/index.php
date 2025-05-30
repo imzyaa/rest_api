@@ -28,7 +28,7 @@
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/sekolah sd.png" alt="Card image cap" width="100%" height="200">
+              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/sd.jpg" alt="Card image cap" width="100%" height="200">
               <div class="card-body">
                 <p class="card-text">Sekolah Dasar di SDN 164518 Tebing Tinggi Sumatra Utara</p>
               </div>
@@ -37,7 +37,7 @@
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/sekolah smp.png" alt="Card image cap" width="100%" height="200">
+              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/smp.jpg" alt="Card image cap" width="100%" height="200">
               <div class="card-body">
                 <p class="card-text">Sekolah Menengah Pertama di SMP IT Permata Hati Kota Tebing Tinggi dan Lulus pada Tahun 2020.</p>
               </div>
@@ -48,7 +48,7 @@
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/sekolah sma.png" alt="Card image cap" width="100%" height="200">
+              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/sma.jpg" alt="Card image cap" width="100%" height="200">
               <div class="card-body">
                 <p class="card-text">Sekolah Menengah Atas di SMA IT Permata Hati Kota Tebing Tinggi dan Lulus pada Tahun 2022.</p>
               </div>
@@ -56,7 +56,7 @@
           </div> 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/kampus uin.png" alt="Card image cap" width="100%" height="200">
+              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/uinib.jpg" alt="Card image cap" width="100%" height="200">
               <div class="card-body">
                 <p class="card-text">Kuliah di Universitas Uin Imam Bonjol Negeri Padang.
                 </p>
@@ -66,7 +66,7 @@
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/fakultas saintek.png" alt="Card image cap" width="100%" height="200">
+              <img class="card-img-top" src="<?= base_url(); ?>/assets/img/fst.jpeg" alt="Card image cap" width="100%" height="200">
               <div class="card-body">
                 <p class="card-text">Fakultas Sains dan Teknologi dengan Program Studi Sistem Informasi</p>
               </div>
